@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-251.26094.121">
+    <data-source name="flightdb@localhost" uuid="08f9513d-b74b-48a2-85fc-426c018e8b75">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="flightdb@localhost" uuid="2d78fcc7-4b51-45d2-be00-3dfc092e8cc2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+INSERT INTO flights (flight_number, departure_airport, arrival_airport, departure_time, arrival_time, price, total_seats, available_seats) VALUES
+                                                                                                                                               ('SU100', 'SVO', 'JFK', '2024-01-15 10:00:00', '2024-01-15 14:30:00', 500.00, 200, 200),
+                                                                                                                                               ('SU200', 'JFK', 'SVO', '2024-01-20 18:00:00', '2024-01-21 10:30:00', 550.00, 200, 200),
+                                                                                                                                               ('AA123', 'LAX', 'ORD', '2024-01-16 08:00:00', '2024-01-16 11:30:00', 250.00, 150, 150),
+                                                                                                                                               ('BA456', 'LHR', 'CDG', '2024-01-17 12:00:00', '2024-01-17 14:00:00', 150.00, 180, 180);
