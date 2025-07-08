@@ -11,16 +11,16 @@ import jakarta.validation.constraints.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookingRequest {
-    @NotNull(message = "Flight ID cannot be null")
+    @NotNull(message = "ID рейса не может быть быть пустым")
     private Long flightId;
 
-    @NotBlank(message = "Passenger name cannot be blank")
+    @NotBlank(message = "Имя пассажира не может быть пустым")
     private String passengerName;
 
-    @Email(message = "Email should be valid")
-    @NotBlank(message = "Email cannot be blank")
+    @Email(message = "Email не соответствует формату")
+    @NotBlank(message = "Email не может быть пустым")
     private String passengerEmail;
 
-    @Min(value = 1, message = "At least 1 seat must be booked")
+    @Min(value = 1, message = "Должно быть выбрано хотя бы одно место")
     private Integer seats;
 }

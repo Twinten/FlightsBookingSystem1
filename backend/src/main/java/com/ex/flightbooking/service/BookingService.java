@@ -24,7 +24,7 @@ public class BookingService {
         Flight flight = flightService.getFlightById(request.getFlightId());
 
         if (flight.getAvailableSeats() < request.getSeats()) {
-            throw new BusinessLogicException("Not enough available seats");
+            throw new BusinessLogicException("Не достаточно свободных мест");
         }
 
         Booking booking = Booking.builder()
@@ -47,10 +47,10 @@ public class BookingService {
 
     public void cancelBooking(Long bookingId) {
         Booking booking = bookingRepository.findById(bookingId)
-                .orElseThrow(() -> new ResourceNotFoundException("Booking not found with id: " + bookingId));
+                .orElseThrow(() -> new ResourceNotFoundException("Бронирование с данным ID не найдено: " + bookingId));
 
         if (booking.getStatus() != BookingStatus.CONFIRMED) {
-            throw new BusinessLogicException("Only confirmed bookings can be cancelled");
+            throw new BusinessLogicException("Только подтвержденное бронирование может быть отменено");
         }
 
         booking.setStatus(BookingStatus.CANCELLED);

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cadfc15-637c-4ebe-9591-9d8dfac3333d" name="Changes" comment="v12" />
+    <list default="true" id="2cadfc15-637c-4ebe-9591-9d8dfac3333d" name="Changes" comment="v12">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/config/BusinessLogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/config/BusinessLogicException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/dto/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/dto/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/service/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ex/flightbooking/service/FlightService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +51,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Twinten/FlightBookingSystem.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Twinten/FlightsBookingSystem1.git&quot;,
     &quot;accountId&quot;: &quot;f73f0428-13d2-47bb-ba28-f3d5bc09f7e9&quot;
   }
 }</component>
@@ -59,6 +66,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BackendApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -219,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751872415933</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="v12">
+      <option name="closed" value="true" />
+      <created>1751876385884</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751876385884</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +276,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/modules/demo.main.iml" />
     <MESSAGE value="vb" />
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="v12" />
+    <option name="LAST_COMMIT_MESSAGE" value="v12" />
   </component>
 </project>

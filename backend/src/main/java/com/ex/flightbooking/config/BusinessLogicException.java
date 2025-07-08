@@ -1,7 +1,7 @@
 package com.ex.flightbooking.config;
 
 public class BusinessLogicException extends RuntimeException {
-    public BusinessLogicException(String message) {
+    public BunssinessLogicException(String message) {
         super(message);
     }
 

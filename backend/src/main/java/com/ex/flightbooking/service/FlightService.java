@@ -27,7 +27,7 @@ public class FlightService {
 
     public Flight getFlightById(Long id) {
         return flightRepository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Flight not found with id: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException("Рейс с данным ID не найден: " + id));
     }
 
     public Flight updateAvailableSeats(Long flightId, int seatsChange) {
@@ -35,7 +35,7 @@ public class FlightService {
         int newAvailableSeats = flight.getAvailableSeats() + seatsChange;
 
         if (newAvailableSeats < 0 || newAvailableSeats > flight.getTotalSeats()) {
-            throw new BusinessLogicException("Invalid seats count. Available seats cannot be negative or exceed total seats");
+            throw new BusinessLogicException("Количество доступных мест не может быть отрицательным или больше количества всех доступных мест");
         }
 
         flight.setAvailableSeats(newAvailableSeats);
